@@ -1,0 +1,1047 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Druplicons</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      section,
+      header,
+      footer {
+        display: block;
+      }
+
+      html {
+        margin: 0;
+        font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
+        font-size: 100%;
+        line-height: 1.5;
+        color: #484741;
+        color: hsl(52, 5%, 25%);
+      }
+
+      a,
+      a:visited {
+        color: #0074bd;
+        text-decoration: none;
+      }
+      a:hover,
+      a:focus {
+        color: #0094F0;
+        text-decoration: underline;
+      }
+
+      code,
+      .code {
+        font-family: Consolas, Menlo, monospace;
+        font-size: 0.9em;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 0.375rem 1.5rem;
+      }
+      th:first-child,
+      td:first-child {
+        padding-left: 0;
+      }
+      thead th {
+        padding-bottom: 0.75rem; /* 1 baseline */
+        font-size: 0.8em;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .cf:before,
+      .cf:after {
+        content: '';
+        display: table;
+      }
+      .cf:after {
+        clear: both;
+      }
+
+      .nowrap {
+        white-space: nowrap;
+      }
+
+      .leader,
+      .leader-1 {
+        margin-top: 1.5rem; /* 1 baseline */
+      }
+      .leader-2 {
+        margin-top: 3rem; /* 2 baselines */
+      }
+
+      .trailer-0p5 {
+        margin-bottom: 0.75rem; /* half baseline */
+      }
+      .trailer,
+      .trailer-1 {
+        margin-bottom: 1.5rem; /* 1 baseline */
+      }
+      .trailer-2 {
+        margin-bottom: 3rem; /* 2 baselines */
+      }
+
+      .l-container {
+        padding: 0 5%;
+        max-width: 65em;
+      }
+
+      .l-centered {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .l-full {
+        width: 100%;
+      }
+
+      .size-1p5x {
+        font-size: 1.5rem;
+      }
+      .size-2x {
+        font-size: 2rem;
+      }
+
+      .head-a {
+        font-size: 2rem;
+        line-height: 1.25;
+        font-weight: normal;
+      }
+
+      .caption {
+        font-size: 0.8em;
+      }
+
+      /* Apply to any of <ul>, <ol>, <tbody>, <thead>, <tfoot> */
+      .ruled > li,
+      .ruled > th,
+      .ruled > tr > td {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid hsl(52, 3%, 85%);
+      }
+      .ruled > li:first-child,
+      .ruled > th:first-child,
+      .ruled > tr:first-child > td {
+        border-top: 1px solid hsl(52, 3%, 85%);
+      }
+
+      .selector-list code {
+        white-space: nowrap;
+      }
+
+      .glyph {
+        font-size: 16px;
+        float: left;
+        text-align: center;
+        background: #eee;
+        padding: .75em;
+        margin: .75em 1.5em .75em 0;
+        width: 7.5em;
+        border-radius: .25em;
+        box-shadow: inset 0 0 0 1px #f8f8f8, 0 0 0 1px #CCC;
+      }
+
+      .small {
+        font-size: 0.85em;
+      }
+
+      .druplicon- {
+        font-size: 2em;
+      }
+
+
+      .box1 {
+        font-size: 16px;
+        display: inline-block;
+        width: 15em;
+        padding: .25em .5em;
+        background: #eee;
+        margin: .5em 1em .5em 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="l-container l-centered">
+      <section class="cf" data-action="select-glyph">
+        <header class="leader-2 trailer-2">
+          <h1 class="head-a trailer-0p5">Druplicons</h1>
+          <p>An icon font for Drupal core themes</p>
+        </header>
+
+        <table class="l-full trailer">
+          <thead>
+            <tr>
+              <th>2×</th>
+              <th>1×</th>
+              <th>Icon Classes</th>
+              <th>Entity</th>
+            </tr>
+          </thead>
+          <tbody class="ruled">
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-house" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-house" aria-hidden="true"></i>&ensp;Home
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-house</code>, <code>.druplicon-home</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe000;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-menu" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-menu" aria-hidden="true"></i>&ensp;Menu
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-menu</code>, <code>.druplicon-hamburger</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe001;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-menu-alt" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-menu-alt" aria-hidden="true"></i>&ensp;Menu
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-menu-alt</code>, <code>.druplicon-hamburger-list</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe002;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-star" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-star" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-star</code>, <code>.druplicon-shortcut</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe003;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-star-empty" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-star-empty" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-star-empty</code>, <code>.druplicon-shortcut-empty</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe004;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-person" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-person" aria-hidden="true"></i>&ensp;Person
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-person</code>, <code>.druplicon-user</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe005;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-people" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-people" aria-hidden="true"></i>&ensp;People
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-people</code>, <code>.druplicon-users</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe006;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-pencil" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-pencil" aria-hidden="true"></i>&ensp;Edit
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-pencil</code>, <code>.druplicon-edit</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe007;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-check" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-check" aria-hidden="true"></i>&ensp;Success
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-check</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe008;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-warning" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-warning" aria-hidden="true"></i>&ensp;Warning
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-warning</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe009;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-x-disc" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-x-disc" aria-hidden="true"></i>&ensp;Error
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-x-disc</code>, <code>.druplicon-close-disc</code>, <code>.druplicon-cancel-disc</code>, <code>.druplicon-error</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe00a;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-x" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-x" aria-hidden="true"></i>&ensp;Close
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-x</code>, <code>.druplicon-close</code>, <code>.druplicon-cancel</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe00b;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-plus" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-plus" aria-hidden="true"></i>&ensp;Add
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-plus</code>, <code>.druplicon-add</code>, <code>.druplicon-new</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe00c;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-minus" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-minus" aria-hidden="true"></i>&ensp;Remove
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-minus</code>, <code>.druplicon-remove</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe00d;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-move" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-move" aria-hidden="true"></i>&ensp;Move
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-move</code>, <code>.druplicon-drag</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe00e;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-move-h" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-move-h" aria-hidden="true"></i>&ensp;Shift
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-move-h</code>, <code>.druplicon-drag-h</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe00f;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-move-v" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-move-v" aria-hidden="true"></i>&ensp;Reorder
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-move-v</code>, <code>.druplicon-drag-v</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe010;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-cog" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-cog" aria-hidden="true"></i>&ensp;Configure
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-cog</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe011;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-link" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-link" aria-hidden="true"></i>&ensp;Link
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-link</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe012;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-capital-serif" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-capital-serif" aria-hidden="true"></i>&nbsp;Content
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-capital-serif</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe013;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-capital-sans" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-capital-sans" aria-hidden="true"></i>&nbsp;Content
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-capital-sans</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe014;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-orgchart" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-orgchart" aria-hidden="true"></i>&ensp;Structure
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-orgchart</code>, <code>.druplicon-structure</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe015;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-paintbrush" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-paintbrush" aria-hidden="true"></i>&ensp;Appearance
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-paintbrush</code>, <code>.druplicon-appearance</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe016;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-puzzlepiece" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-puzzlepiece" aria-hidden="true"></i>&ensp;Module
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-puzzlepiece</code>, <code>.druplicon-module</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe017;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-wrench" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-wrench" aria-hidden="true"></i>&ensp;Administer
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-wrench</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe018;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-barchart" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-barchart" aria-hidden="true"></i>&ensp;Reports
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-barchart</code>, <code>.druplicon-reports</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe019;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-piechart" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-piechart" aria-hidden="true"></i>&ensp;Reports
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-piechart</code>, <code>.druplicon-reports-alt</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe01a;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-questionmark-disc" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-questionmark-disc" aria-hidden="true"></i>&ensp;Help
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-questionmark-disc</code>, <code>.druplicon-help</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe01b;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-push-up" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-push-up" aria-hidden="true"></i>&ensp;Push up
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-push-up</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe01c;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-push-right" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-push-right" aria-hidden="true"></i>&ensp;Push right
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-push-right</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe01d;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-push-down" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-push-down" aria-hidden="true"></i>&ensp;Push down
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-push-down</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe01e;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-push-left" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-push-left" aria-hidden="true"></i>&ensp;Push left
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-push-left</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe01f;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-loupe" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-loupe" aria-hidden="true"></i>&ensp;Search
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-loupe</code>, <code>.druplicon-search</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe020;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-lock" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-lock" aria-hidden="true"></i>&ensp;Lock
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-lock</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe021;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-lock-open" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-lock-open" aria-hidden="true"></i>&ensp;Unlock
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-lock-open</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe022;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-eye" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-eye" aria-hidden="true"></i>&ensp;View
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-eye</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe023;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-file" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-file" aria-hidden="true"></i>&ensp;File
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-file</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe024;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-picture" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-picture" aria-hidden="true"></i>&ensp;Picture
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-picture</code>, <code>.druplicon-image</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe025;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-comment" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-comment" aria-hidden="true"></i>&ensp;Comment
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-comment</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe026;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-comment-starred" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-comment-starred" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-comment-starred</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe027;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-comment-locked" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-comment-locked" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-comment-locked</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe028;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-comment-pinned" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-comment-pinned" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-comment-pinned</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe029;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-comments" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-comments" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-comments</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe02a;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-comments-starred" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-comments-starred" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-comments-starred</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe02b;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-pin" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-pin" aria-hidden="true"></i>&ensp;Pin
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-pin</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe02c;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-twistie-up" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-twistie-up" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-twistie-up</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe02d;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-twistie-right" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-twistie-right" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-twistie-right</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe02e;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-twistie-down" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-twistie-down" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-twistie-down</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe02f;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-twistie-left" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-twistie-left" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-twistie-left</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe030;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-caret-up" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                Dropup&nbsp;<i class="druplicon-caret-up" aria-hidden="true"></i>
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-caret-up</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe031;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-caret-right" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                Flyout&nbsp;<i class="druplicon-caret-right" aria-hidden="true"></i>
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-caret-right</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe032;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-caret-down" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                Dropdown&nbsp;<i class="druplicon-caret-down" aria-hidden="true"></i>
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-caret-down</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe033;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-caret-left" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-caret-left" aria-hidden="true"></i>&nbsp;Flyout
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-caret-left</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe034;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-up" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-up" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-up</code>, <code>.druplicon-nav-up</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe035;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-right" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-right" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-right</code>, <code>.druplicon-nav-next</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe036;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-down" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-down" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-down</code>, <code>.druplicon-nav-down</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe037;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-left" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-left" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-left</code>, <code>.druplicon-nav-previous</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe038;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-double-right" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-double-right" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-double-right</code>, <code>.druplicon-nav-last</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe039;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-double-left" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-double-left" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-double-left</code>, <code>.druplicon-nav-first</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe03a;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-disc-up" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-disc-up" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-disc-up</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe03b;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-disc-right" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-disc-right" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-disc-right</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe03c;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-disc-down" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-disc-down" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-disc-down</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe03d;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-chevron-disc-left" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-chevron-disc-left" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-chevron-disc-left</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe03e;" size="8" readonly /></td>
+            </tr>
+
+            <tr>
+              <td class="size-2x">
+                <i class="druplicon-key" aria-hidden="true"></i>
+              </td>
+              <td class="nowrap">
+                <i class="druplicon-key" aria-hidden="true"></i>&ensp;Example
+              </td>
+              <td class="selector-list">
+                <code>.druplicon-key</code>, <code>.druplicon-permissions</code>
+              </td>
+              <td><input class="code js-entity" type="text" value="&amp;#xe03f;" size="8" readonly /></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <footer class="leader trailer-2 caption">
+        <p>Originally generated with <a href="http://icomoon.io">IcoMoon.io</a></p>
+      </footer>
+    </div>
+
+    <script>
+    document.addEventListener('click', function(ev) {
+      var target = ev.target;
+      if ( target.classList.contains('js-entity') ) {
+        target.select();
+      }
+    }, false);
+    </script>
+  </body>
+</html>

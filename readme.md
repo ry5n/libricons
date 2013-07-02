@@ -46,3 +46,8 @@ version of the font built using IcoMoon, a free web app.
     </code>
 
 11. Add an example to the index.html for any new glyphs.
+
+## Todo
+
+[ ] Better automation (building the font on the command line)
+[ ] Evaluate the slightly non-standard CSS selector pattern for rendering icons.

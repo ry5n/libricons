@@ -1,0 +1,254 @@
+@font-face {
+  font-family: 'libricons';
+  src:url('fonts/libricons.eot');
+  src:url('fonts/libricons.eot?#iefix') format('embedded-opentype'),
+    url('fonts/libricons.woff') format('woff'),
+    url('fonts/libricons.ttf') format('truetype'),
+    url('fonts/libricons.svg#libricons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.iconset-libricons {
+  display: inline-block;
+  font-family: 'libricons';
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  text-decoration: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.iconset-libricons.icon-house:before,
+.iconset-libricons.icon-home:before {
+  content: "\e000";
+}
+.iconset-libricons.icon-hamburger:before,
+.iconset-libricons.icon-menu:before {
+  content: "\e001";
+}
+.iconset-libricons.icon-hamburger-list:before,
+.iconset-libricons.icon-menu-alt:before {
+  content: "\e002";
+}
+.iconset-libricons.icon-star:before,
+.iconset-libricons.icon-shortcut:before {
+  content: "\e003";
+}
+.iconset-libricons.icon-star-empty:before,
+.iconset-libricons.icon-shortcut-empty:before {
+  content: "\e004";
+}
+.iconset-libricons.icon-person:before,
+.iconset-libricons.icon-user:before {
+  content: "\e005";
+}
+.iconset-libricons.icon-people:before,
+.iconset-libricons.icon-users:before {
+  content: "\e006";
+}
+.iconset-libricons.icon-pencil:before,
+.iconset-libricons.icon-edit:before {
+  content: "\e007";
+}
+.iconset-libricons.icon-check:before {
+  content: "\e008";
+}
+.iconset-libricons.icon-warning:before {
+  content: "\e009";
+}
+.iconset-libricons.icon-x-disc:before,
+.iconset-libricons.icon-close-disc:before,
+.iconset-libricons.icon-cancel-disc:before,
+.iconset-libricons.icon-error:before {
+  content: "\e00a";
+}
+.iconset-libricons.icon-x:before,
+.iconset-libricons.icon-close:before,
+.iconset-libricons.icon-cancel:before {
+  content: "\e00b";
+}
+.iconset-libricons.icon-plus:before,
+.iconset-libricons.icon-add:before,
+.iconset-libricons.icon-new:before {
+  content: "\e00c";
+}
+.iconset-libricons.icon-minus:before,
+.iconset-libricons.icon-remove:before {
+  content: "\e00d";
+}
+.iconset-libricons.icon-move:before,
+.iconset-libricons.icon-drag:before {
+  content: "\e00e";
+}
+.iconset-libricons.icon-move-h:before,
+.iconset-libricons.icon-drag-h:before {
+  content: "\e00f";
+}
+.iconset-libricons.icon-move-v:before,
+.iconset-libricons.icon-drag-v:before {
+  content: "\e010";
+}
+.iconset-libricons.icon-cog:before,
+.iconset-libricons.icon-configure:before {
+  content: "\e011";
+}
+.iconset-libricons.icon-link:before {
+  content: "\e012";
+}
+.iconset-libricons.icon-capital-serif:before,
+.iconset-libricons.icon-content:before {
+  content: "\e013";
+}
+.iconset-libricons.icon-capital-sans:before,
+.iconset-libricons.icon-content-alt:before {
+  content: "\e014";
+}
+.iconset-libricons.icon-orgchart:before,
+.iconset-libricons.icon-structure:before {
+  content: "\e015";
+}
+.iconset-libricons.icon-paintbrush:before,
+.iconset-libricons.icon-appearance:before {
+  content: "\e016";
+}
+.iconset-libricons.icon-puzzlepiece:before,
+.iconset-libricons.icon-module:before {
+  content: "\e017";
+}
+.iconset-libricons.icon-wrench:before {
+  content: "\e018";
+}
+.iconset-libricons.icon-barchart:before,
+.iconset-libricons.icon-reports:before {
+  content: "\e019";
+}
+.iconset-libricons.icon-piechart:before,
+.iconset-libricons.icon-reports-alt:before {
+  content: "\e01a";
+}
+.iconset-libricons.icon-questionmark-disc:before,
+.iconset-libricons.icon-help:before {
+  content: "\e01b";
+}
+.iconset-libricons.icon-push-up:before {
+  content: "\e01c";
+}
+.iconset-libricons.icon-push-right:before {
+  content: "\e01d";
+}
+.iconset-libricons.icon-push-down:before {
+  content: "\e01e";
+}
+.iconset-libricons.icon-push-left:before {
+  content: "\e01f";
+}
+.iconset-libricons.icon-loupe:before,
+.iconset-libricons.icon-search:before {
+  content: "\e020";
+}
+.iconset-libricons.icon-lock:before {
+  content: "\e021";
+}
+.iconset-libricons.icon-lock-open:before {
+  content: "\e022";
+}
+.iconset-libricons.icon-eye:before,
+.iconset-libricons.icon-view:before {
+  content: "\e023";
+}
+.iconset-libricons.icon-file:before {
+  content: "\e024";
+}
+.iconset-libricons.icon-picture:before,
+.iconset-libricons.icon-image:before {
+  content: "\e025";
+}
+.iconset-libricons.icon-comment:before {
+  content: "\e026";
+}
+.iconset-libricons.icon-comment-starred:before {
+  content: "\e027";
+}
+.iconset-libricons.icon-comment-locked:before {
+  content: "\e028";
+}
+.iconset-libricons.icon-comment-pinned:before {
+  content: "\e029";
+}
+.iconset-libricons.icon-comments:before {
+  content: "\e02a";
+}
+.iconset-libricons.icon-comments-starred:before {
+  content: "\e02b";
+}
+.iconset-libricons.icon-pin:before {
+  content: "\e02c";
+}
+.iconset-libricons.icon-twistie-up:before {
+  content: "\e02d";
+}
+.iconset-libricons.icon-twistie-right:before {
+  content: "\e02e";
+}
+.iconset-libricons.icon-twistie-down:before {
+  content: "\e02f";
+}
+.iconset-libricons.icon-twistie-left:before {
+  content: "\e030";
+}
+.iconset-libricons.icon-caret-up:before {
+  content: "\e031";
+}
+.iconset-libricons.icon-caret-right:before {
+  content: "\e032";
+}
+.iconset-libricons.icon-caret-down:before {
+  content: "\e033";
+}
+.iconset-libricons.icon-caret-left:before {
+  content: "\e034";
+}
+.iconset-libricons.icon-chevron-up:before,
+.iconset-libricons.icon-nav-up:before {
+  content: "\e035";
+}
+.iconset-libricons.icon-chevron-right:before,
+.iconset-libricons.icon-nav-next:before {
+  content: "\e036";
+}
+.iconset-libricons.icon-chevron-down:before,
+.iconset-libricons.icon-nav-down:before {
+  content: "\e037";
+}
+.iconset-libricons.icon-chevron-left:before,
+.iconset-libricons.icon-nav-previous:before {
+  content: "\e038";
+}
+.iconset-libricons.icon-chevron-double-right:before,
+.iconset-libricons.icon-nav-last:before {
+  content: "\e039";
+}
+.iconset-libricons.icon-chevron-double-left:before,
+.iconset-libricons.icon-nav-first:before {
+  content: "\e03a";
+}
+.iconset-libricons.icon-chevron-disc-up:before {
+  content: "\e03b";
+}
+.iconset-libricons.icon-chevron-disc-right:before {
+  content: "\e03c";
+}
+.iconset-libricons.icon-chevron-disc-down:before {
+  content: "\e03d";
+}
+.iconset-libricons.icon-chevron-disc-left:before {
+  content: "\e03e";
+}
+.iconset-libricons.icon-key:before,
+.iconset-libricons.icon-permissions:before {
+  content: "\e03f";
+}

@@ -1,4 +1,4 @@
-#Readme
+![Libricons. An icon font for everyone](https://github.com/lewisnyman/libricons/raw/master/libricons-grid.png)
 
 ## Why
 

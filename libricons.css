@@ -51,7 +51,8 @@
   content: "\e006";
 }
 .libricons.icon-pencil:before,
-.libricons.icon-edit:before {
+.libricons.icon-edit:before,
+.libricons.icon-write:before {
   content: "\e007";
 }
 .libricons.icon-check:before {

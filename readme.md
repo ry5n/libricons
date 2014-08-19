@@ -23,7 +23,7 @@ version of the font built using IcoMoon, a free web app.
     essential.
 2.  Optimize the SVG output; for example, https://github.com/svg/svgo
 3.  Visit http://icomoon.io/app and import *all* glyphs from ./src
-4.  Select all imported glyphs and click "Font →"
+4.  Select all imported glyphs and click "Font →".
 5.  In 'Preferences', set the font name to 'druplicons' and the icon prefix to
     'druplicon-'
 6.  In 'Font Metrics', choose 'set font metrics manually' and apply the
@@ -32,11 +32,11 @@ version of the font built using IcoMoon, a free web app.
     - Baseline Height: 12.5
     - Whitespace Width: 50
 7.  Ensure that the unicode points start from U+e000 and increment without gaps.
-8.  Proceed with download
+8.  Proceed with download.
 9.  Replace the old font files with the new font files (eot, svg, ttf, woff).
     Discard the dev.svg font file.
 10. Manually update the existing CSS using the generated CSS as reference.
-    Additions should normally consist of adding on or more rules like the
+    Additions should normally consist of adding one or more rules like the
     following:
 
     <code>

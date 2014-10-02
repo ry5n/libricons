@@ -253,3 +253,10 @@
 .libricons.icon-permissions:before {
   content: "\e03f";
 }
+.libricons.icon-trashcan:before {
+  content: "\e040";
+}
+.libricons.icon-cart:before {
+  content: "\e041";
+}
+

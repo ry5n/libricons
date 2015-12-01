@@ -1,277 +1,427 @@
 @font-face {
-	font-family: "libricons";
-	src: url('../fonts/libricons.eot');
-	src: url('../fonts/libricons.eot?#iefix') format('eot'),
-		url('../fonts/libricons.woff') format('woff'),
-		url('../fonts/libricons.ttf') format('truetype'),
-		url('../fonts/libricons.svg#libricons') format('svg');
-}
-
-.icon:before {
-	font-family: "libricons";
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
-	text-decoration: none;
-	text-transform: none;
-}
-
-
-.icon-9937-key:before {
-	content: "\E001";
-}
-
-.icon-9938-chevron-disc-left:before {
-	content: "\E002";
-}
-
-.icon-9939-chevron-disc-down:before {
-	content: "\E003";
-}
-
-.icon-9940-chevron-disc-right:before {
-	content: "\E004";
-}
-
-.icon-9941-chevron-disc-up:before {
-	content: "\E005";
-}
-
-.icon-9942-chevron-double-left:before {
-	content: "\E006";
-}
-
-.icon-9943-chevron-double-right:before {
-	content: "\E007";
-}
-
-.icon-9944-chevron-left:before {
-	content: "\E008";
-}
-
-.icon-9945-chevron-down:before {
-	content: "\E009";
-}
-
-.icon-9946-chevron-right:before {
-	content: "\E00A";
-}
-
-.icon-9947-chevron-up:before {
-	content: "\E00B";
-}
-
-.icon-9948-caret-left:before {
-	content: "\E00C";
-}
-
-.icon-9949-caret-down:before {
-	content: "\E00D";
-}
-
-.icon-9950-caret-right:before {
-	content: "\E00E";
-}
-
-.icon-9951-caret-up:before {
-	content: "\E00F";
-}
-
-.icon-9952-twistie-left:before {
-	content: "\E010";
-}
-
-.icon-9953-twistie-down:before {
-	content: "\E011";
-}
-
-.icon-9954-twistie-right:before {
-	content: "\E012";
-}
-
-.icon-9955-twistie-up:before {
-	content: "\E013";
-}
-
-.icon-9956-pin:before {
-	content: "\E014";
-}
-
-.icon-9957-comments-starred:before {
-	content: "\E015";
-}
-
-.icon-9958-comments:before {
-	content: "\E016";
-}
-
-.icon-9959-comment-pinned:before {
-	content: "\E017";
-}
-
-.icon-9960-comment-locked:before {
-	content: "\E018";
-}
-
-.icon-9961-comment-starred:before {
-	content: "\E019";
-}
-
-.icon-9962-comment:before {
-	content: "\E01A";
-}
-
-.icon-9963-picture:before {
-	content: "\E01B";
-}
-
-.icon-9964-file:before {
-	content: "\E01C";
-}
-
-.icon-9965-eye:before {
-	content: "\E01D";
-}
-
-.icon-9965-lock-open:before {
-	content: "\E01E";
-}
-
-.icon-9966-lock:before {
-	content: "\E01F";
-}
-
-.icon-9967-loupe:before {
-	content: "\E020";
-}
-
-.icon-9968-push-left:before {
-	content: "\E021";
-}
-
-.icon-9969-push-down:before {
-	content: "\E022";
-}
-
-.icon-9970-push-right:before {
-	content: "\E023";
-}
-
-.icon-9971-push-up:before {
-	content: "\E024";
-}
-
-.icon-9972-questionmark-disc:before {
-	content: "\E025";
-}
-
-.icon-9973-piechart:before {
-	content: "\E026";
-}
-
-.icon-9974-barchart:before {
-	content: "\E027";
-}
-
-.icon-9975-wrench:before {
-	content: "\E028";
-}
-
-.icon-9976-puzzlepiece:before {
-	content: "\E029";
-}
-
-.icon-9977-paintbrush:before {
-	content: "\E02A";
-}
-
-.icon-9978-orgchart:before {
-	content: "\E02B";
-}
-
-.icon-9979-capital-sans:before {
-	content: "\E02C";
-}
-
-.icon-9980-capital-serif:before {
-	content: "\E02D";
-}
-
-.icon-9981-link:before {
-	content: "\E02E";
-}
-
-.icon-9982-cog:before {
-	content: "\E02F";
-}
-
-.icon-9983-move-v:before {
-	content: "\E030";
-}
-
-.icon-9984-move-h:before {
-	content: "\E031";
-}
-
-.icon-9985-move:before {
-	content: "\E032";
-}
-
-.icon-9986-minus:before {
-	content: "\E033";
-}
-
-.icon-9987-plus:before {
-	content: "\E034";
-}
-
-.icon-9988-ex:before {
-	content: "\E035";
-}
-
-.icon-9989-ex-disc:before {
-	content: "\E036";
-}
-
-.icon-9990-warning:before {
-	content: "\E037";
-}
-
-.icon-9991-check:before {
-	content: "\E038";
-}
-
-.icon-9992-pencil:before {
-	content: "\E039";
-}
-
-.icon-9993-people:before {
-	content: "\E03A";
-}
-
-.icon-9994-person:before {
-	content: "\E03B";
-}
-
-.icon-9995-star-empty:before {
-	content: "\E03C";
-}
-
-.icon-9996-star:before {
-	content: "\E03D";
-}
-
-.icon-9997-hamburger-list:before {
-	content: "\E03E";
-}
-
-.icon-9998-hamburger:before {
-	content: "\E03F";
-}
-
-.icon-9999-house:before {
-	content: "\E040";
+  font-family: "libricons";
+  src: url('../fonts/libricons.eot');
+  src: url('../fonts/libricons.eot?#iefix') format('eot'),
+    url('../fonts/libricons.woff') format('woff'),
+    url('../fonts/libricons.ttf') format('truetype'),
+    url('../fonts/libricons.svg#libricons') format('svg');
+}
+
+@mixin icon-styles {
+  font-family: "libricons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  // speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+  text-decoration: none;
+  text-transform: none;
+}
+
+%icon {
+  @include icon-styles;
+}
+
+@function icon-char($filename) {
+  $char: "";
+
+  @if $filename == 9937-key {
+    $char: "\E001";
+  }
+  @if $filename == 9938-chevron-disc-left {
+    $char: "\E002";
+  }
+  @if $filename == 9939-chevron-disc-down {
+    $char: "\E003";
+  }
+  @if $filename == 9940-chevron-disc-right {
+    $char: "\E004";
+  }
+  @if $filename == 9941-chevron-disc-up {
+    $char: "\E005";
+  }
+  @if $filename == 9942-chevron-double-left {
+    $char: "\E006";
+  }
+  @if $filename == 9943-chevron-double-right {
+    $char: "\E007";
+  }
+  @if $filename == 9944-chevron-left {
+    $char: "\E008";
+  }
+  @if $filename == 9945-chevron-down {
+    $char: "\E009";
+  }
+  @if $filename == 9946-chevron-right {
+    $char: "\E00A";
+  }
+  @if $filename == 9947-chevron-up {
+    $char: "\E00B";
+  }
+  @if $filename == 9948-caret-left {
+    $char: "\E00C";
+  }
+  @if $filename == 9949-caret-down {
+    $char: "\E00D";
+  }
+  @if $filename == 9950-caret-right {
+    $char: "\E00E";
+  }
+  @if $filename == 9951-caret-up {
+    $char: "\E00F";
+  }
+  @if $filename == 9952-twistie-left {
+    $char: "\E010";
+  }
+  @if $filename == 9953-twistie-down {
+    $char: "\E011";
+  }
+  @if $filename == 9954-twistie-right {
+    $char: "\E012";
+  }
+  @if $filename == 9955-twistie-up {
+    $char: "\E013";
+  }
+  @if $filename == 9956-pin {
+    $char: "\E014";
+  }
+  @if $filename == 9957-comments-starred {
+    $char: "\E015";
+  }
+  @if $filename == 9958-comments {
+    $char: "\E016";
+  }
+  @if $filename == 9959-comment-pinned {
+    $char: "\E017";
+  }
+  @if $filename == 9960-comment-locked {
+    $char: "\E018";
+  }
+  @if $filename == 9961-comment-starred {
+    $char: "\E019";
+  }
+  @if $filename == 9962-comment {
+    $char: "\E01A";
+  }
+  @if $filename == 9963-picture {
+    $char: "\E01B";
+  }
+  @if $filename == 9964-file {
+    $char: "\E01C";
+  }
+  @if $filename == 9965-eye {
+    $char: "\E01D";
+  }
+  @if $filename == 9965-lock-open {
+    $char: "\E01E";
+  }
+  @if $filename == 9966-lock {
+    $char: "\E01F";
+  }
+  @if $filename == 9967-loupe {
+    $char: "\E020";
+  }
+  @if $filename == 9968-push-left {
+    $char: "\E021";
+  }
+  @if $filename == 9969-push-down {
+    $char: "\E022";
+  }
+  @if $filename == 9970-push-right {
+    $char: "\E023";
+  }
+  @if $filename == 9971-push-up {
+    $char: "\E024";
+  }
+  @if $filename == 9972-questionmark-disc {
+    $char: "\E025";
+  }
+  @if $filename == 9973-piechart {
+    $char: "\E026";
+  }
+  @if $filename == 9974-barchart {
+    $char: "\E027";
+  }
+  @if $filename == 9975-wrench {
+    $char: "\E028";
+  }
+  @if $filename == 9976-puzzlepiece {
+    $char: "\E029";
+  }
+  @if $filename == 9977-paintbrush {
+    $char: "\E02A";
+  }
+  @if $filename == 9978-orgchart {
+    $char: "\E02B";
+  }
+  @if $filename == 9979-capital-sans {
+    $char: "\E02C";
+  }
+  @if $filename == 9980-capital-serif {
+    $char: "\E02D";
+  }
+  @if $filename == 9981-link {
+    $char: "\E02E";
+  }
+  @if $filename == 9982-cog {
+    $char: "\E02F";
+  }
+  @if $filename == 9983-move-v {
+    $char: "\E030";
+  }
+  @if $filename == 9984-move-h {
+    $char: "\E031";
+  }
+  @if $filename == 9985-move {
+    $char: "\E032";
+  }
+  @if $filename == 9986-minus {
+    $char: "\E033";
+  }
+  @if $filename == 9987-plus {
+    $char: "\E034";
+  }
+  @if $filename == 9988-ex {
+    $char: "\E035";
+  }
+  @if $filename == 9989-ex-disc {
+    $char: "\E036";
+  }
+  @if $filename == 9990-warning {
+    $char: "\E037";
+  }
+  @if $filename == 9991-check {
+    $char: "\E038";
+  }
+  @if $filename == 9992-pencil {
+    $char: "\E039";
+  }
+  @if $filename == 9993-people {
+    $char: "\E03A";
+  }
+  @if $filename == 9994-person {
+    $char: "\E03B";
+  }
+  @if $filename == 9995-star-empty {
+    $char: "\E03C";
+  }
+  @if $filename == 9996-star {
+    $char: "\E03D";
+  }
+  @if $filename == 9997-hamburger-list {
+    $char: "\E03E";
+  }
+  @if $filename == 9998-hamburger {
+    $char: "\E03F";
+  }
+  @if $filename == 9999-house {
+    $char: "\E040";
+  }
+
+  @return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+  &:#{$insert} {
+    @if $extend {
+      @extend %icon;
+    } @else {
+      @include icon-styles;
+    }
+    content: icon-char($filename);
+  }
+}
+
+.icon-9937-key {
+  @include icon(9937-key);
+}
+.icon-9938-chevron-disc-left {
+  @include icon(9938-chevron-disc-left);
+}
+.icon-9939-chevron-disc-down {
+  @include icon(9939-chevron-disc-down);
+}
+.icon-9940-chevron-disc-right {
+  @include icon(9940-chevron-disc-right);
+}
+.icon-9941-chevron-disc-up {
+  @include icon(9941-chevron-disc-up);
+}
+.icon-9942-chevron-double-left {
+  @include icon(9942-chevron-double-left);
+}
+.icon-9943-chevron-double-right {
+  @include icon(9943-chevron-double-right);
+}
+.icon-9944-chevron-left {
+  @include icon(9944-chevron-left);
+}
+.icon-9945-chevron-down {
+  @include icon(9945-chevron-down);
+}
+.icon-9946-chevron-right {
+  @include icon(9946-chevron-right);
+}
+.icon-9947-chevron-up {
+  @include icon(9947-chevron-up);
+}
+.icon-9948-caret-left {
+  @include icon(9948-caret-left);
+}
+.icon-9949-caret-down {
+  @include icon(9949-caret-down);
+}
+.icon-9950-caret-right {
+  @include icon(9950-caret-right);
+}
+.icon-9951-caret-up {
+  @include icon(9951-caret-up);
+}
+.icon-9952-twistie-left {
+  @include icon(9952-twistie-left);
+}
+.icon-9953-twistie-down {
+  @include icon(9953-twistie-down);
+}
+.icon-9954-twistie-right {
+  @include icon(9954-twistie-right);
+}
+.icon-9955-twistie-up {
+  @include icon(9955-twistie-up);
+}
+.icon-9956-pin {
+  @include icon(9956-pin);
+}
+.icon-9957-comments-starred {
+  @include icon(9957-comments-starred);
+}
+.icon-9958-comments {
+  @include icon(9958-comments);
+}
+.icon-9959-comment-pinned {
+  @include icon(9959-comment-pinned);
+}
+.icon-9960-comment-locked {
+  @include icon(9960-comment-locked);
+}
+.icon-9961-comment-starred {
+  @include icon(9961-comment-starred);
+}
+.icon-9962-comment {
+  @include icon(9962-comment);
+}
+.icon-9963-picture {
+  @include icon(9963-picture);
+}
+.icon-9964-file {
+  @include icon(9964-file);
+}
+.icon-9965-eye {
+  @include icon(9965-eye);
+}
+.icon-9965-lock-open {
+  @include icon(9965-lock-open);
+}
+.icon-9966-lock {
+  @include icon(9966-lock);
+}
+.icon-9967-loupe {
+  @include icon(9967-loupe);
+}
+.icon-9968-push-left {
+  @include icon(9968-push-left);
+}
+.icon-9969-push-down {
+  @include icon(9969-push-down);
+}
+.icon-9970-push-right {
+  @include icon(9970-push-right);
+}
+.icon-9971-push-up {
+  @include icon(9971-push-up);
+}
+.icon-9972-questionmark-disc {
+  @include icon(9972-questionmark-disc);
+}
+.icon-9973-piechart {
+  @include icon(9973-piechart);
+}
+.icon-9974-barchart {
+  @include icon(9974-barchart);
+}
+.icon-9975-wrench {
+  @include icon(9975-wrench);
+}
+.icon-9976-puzzlepiece {
+  @include icon(9976-puzzlepiece);
+}
+.icon-9977-paintbrush {
+  @include icon(9977-paintbrush);
+}
+.icon-9978-orgchart {
+  @include icon(9978-orgchart);
+}
+.icon-9979-capital-sans {
+  @include icon(9979-capital-sans);
+}
+.icon-9980-capital-serif {
+  @include icon(9980-capital-serif);
+}
+.icon-9981-link {
+  @include icon(9981-link);
+}
+.icon-9982-cog {
+  @include icon(9982-cog);
+}
+.icon-9983-move-v {
+  @include icon(9983-move-v);
+}
+.icon-9984-move-h {
+  @include icon(9984-move-h);
+}
+.icon-9985-move {
+  @include icon(9985-move);
+}
+.icon-9986-minus {
+  @include icon(9986-minus);
+}
+.icon-9987-plus {
+  @include icon(9987-plus);
+}
+.icon-9988-ex {
+  @include icon(9988-ex);
+}
+.icon-9989-ex-disc {
+  @include icon(9989-ex-disc);
+}
+.icon-9990-warning {
+  @include icon(9990-warning);
+}
+.icon-9991-check {
+  @include icon(9991-check);
+}
+.icon-9992-pencil {
+  @include icon(9992-pencil);
+}
+.icon-9993-people {
+  @include icon(9993-people);
+}
+.icon-9994-person {
+  @include icon(9994-person);
+}
+.icon-9995-star-empty {
+  @include icon(9995-star-empty);
+}
+.icon-9996-star {
+  @include icon(9996-star);
+}
+.icon-9997-hamburger-list {
+  @include icon(9997-hamburger-list);
+}
+.icon-9998-hamburger {
+  @include icon(9998-hamburger);
+}
+.icon-9999-house {
+  @include icon(9999-house);
 }

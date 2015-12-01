@@ -15,13 +15,16 @@ var gulp = require('gulp'),
 // Fonts.
 gulp.task('fonts', function () {
   var fontName = 'libricons',
-      template = 'fontawesome-style'; // you can also choose 'foundation-style'.
+      template = 'fontawesome-style', // you can also choose 'foundation-style'.
+      cssClassPrefix = 'icon';
   gulp.src(['src/*.svg'])
     // Create a base icon font SASS file.
     .pipe(iconfontCss({
       fontName: fontName,
       targetPath: '../sass/_' + fontName + '.scss',
-      fontPath: '../fonts/'
+      fontPath: '../fonts/',
+      path: 'templates/_icons.scss',
+      cssClass: cssClassPrefix
     }))
     // Create font.
     .pipe(iconfont({
@@ -35,8 +38,8 @@ gulp.task('fonts', function () {
       var options = {
         glyphs: glyphs,
         fontName: fontName,
-        fontPath: '../../fonts/', // set path to font (from your CSS file if relative)
-        className: 'icon' // set class name in your CSS
+        fontPath: '../../fonts/', // Set path to font (from your CSS file if relative)
+        className: cssClassPrefix
       };
 
       // Build sample CSS.

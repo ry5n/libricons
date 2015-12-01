@@ -1,0 +1,31 @@
+{
+  "name": "libricons",
+  "version": "1.0.0",
+  "description": "Em Theme Packages",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-consolidate": "latest",
+    "gulp-iconfont": "latest",
+    "gulp-iconfont-css": "latest",
+    "gulp-rename": "latest",
+    "gulp-shell": "latest",
+    "lodash": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "echo 'https://www.drupal.org/node/2393605' > node_modules/.scanignore"
+  },
+  "author": "ry5n",
+  "license": "MIT",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ry5n/libricons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ry5n/libricons/issues"
+  },
+  "homepage": "https://github.com/ry5n/libricons#readme"
+}

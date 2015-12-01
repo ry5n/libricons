@@ -1,0 +1,277 @@
+@font-face {
+	font-family: "libricons";
+	src: url('../fonts/libricons.eot');
+	src: url('../fonts/libricons.eot?#iefix') format('eot'),
+		url('../fonts/libricons.woff') format('woff'),
+		url('../fonts/libricons.ttf') format('truetype'),
+		url('../fonts/libricons.svg#libricons') format('svg');
+}
+
+.icon:before {
+	font-family: "libricons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-9937-key:before {
+	content: "\E001";
+}
+
+.icon-9938-chevron-disc-left:before {
+	content: "\E002";
+}
+
+.icon-9939-chevron-disc-down:before {
+	content: "\E003";
+}
+
+.icon-9940-chevron-disc-right:before {
+	content: "\E004";
+}
+
+.icon-9941-chevron-disc-up:before {
+	content: "\E005";
+}
+
+.icon-9942-chevron-double-left:before {
+	content: "\E006";
+}
+
+.icon-9943-chevron-double-right:before {
+	content: "\E007";
+}
+
+.icon-9944-chevron-left:before {
+	content: "\E008";
+}
+
+.icon-9945-chevron-down:before {
+	content: "\E009";
+}
+
+.icon-9946-chevron-right:before {
+	content: "\E00A";
+}
+
+.icon-9947-chevron-up:before {
+	content: "\E00B";
+}
+
+.icon-9948-caret-left:before {
+	content: "\E00C";
+}
+
+.icon-9949-caret-down:before {
+	content: "\E00D";
+}
+
+.icon-9950-caret-right:before {
+	content: "\E00E";
+}
+
+.icon-9951-caret-up:before {
+	content: "\E00F";
+}
+
+.icon-9952-twistie-left:before {
+	content: "\E010";
+}
+
+.icon-9953-twistie-down:before {
+	content: "\E011";
+}
+
+.icon-9954-twistie-right:before {
+	content: "\E012";
+}
+
+.icon-9955-twistie-up:before {
+	content: "\E013";
+}
+
+.icon-9956-pin:before {
+	content: "\E014";
+}
+
+.icon-9957-comments-starred:before {
+	content: "\E015";
+}
+
+.icon-9958-comments:before {
+	content: "\E016";
+}
+
+.icon-9959-comment-pinned:before {
+	content: "\E017";
+}
+
+.icon-9960-comment-locked:before {
+	content: "\E018";
+}
+
+.icon-9961-comment-starred:before {
+	content: "\E019";
+}
+
+.icon-9962-comment:before {
+	content: "\E01A";
+}
+
+.icon-9963-picture:before {
+	content: "\E01B";
+}
+
+.icon-9964-file:before {
+	content: "\E01C";
+}
+
+.icon-9965-eye:before {
+	content: "\E01D";
+}
+
+.icon-9965-lock-open:before {
+	content: "\E01E";
+}
+
+.icon-9966-lock:before {
+	content: "\E01F";
+}
+
+.icon-9967-loupe:before {
+	content: "\E020";
+}
+
+.icon-9968-push-left:before {
+	content: "\E021";
+}
+
+.icon-9969-push-down:before {
+	content: "\E022";
+}
+
+.icon-9970-push-right:before {
+	content: "\E023";
+}
+
+.icon-9971-push-up:before {
+	content: "\E024";
+}
+
+.icon-9972-questionmark-disc:before {
+	content: "\E025";
+}
+
+.icon-9973-piechart:before {
+	content: "\E026";
+}
+
+.icon-9974-barchart:before {
+	content: "\E027";
+}
+
+.icon-9975-wrench:before {
+	content: "\E028";
+}
+
+.icon-9976-puzzlepiece:before {
+	content: "\E029";
+}
+
+.icon-9977-paintbrush:before {
+	content: "\E02A";
+}
+
+.icon-9978-orgchart:before {
+	content: "\E02B";
+}
+
+.icon-9979-capital-sans:before {
+	content: "\E02C";
+}
+
+.icon-9980-capital-serif:before {
+	content: "\E02D";
+}
+
+.icon-9981-link:before {
+	content: "\E02E";
+}
+
+.icon-9982-cog:before {
+	content: "\E02F";
+}
+
+.icon-9983-move-v:before {
+	content: "\E030";
+}
+
+.icon-9984-move-h:before {
+	content: "\E031";
+}
+
+.icon-9985-move:before {
+	content: "\E032";
+}
+
+.icon-9986-minus:before {
+	content: "\E033";
+}
+
+.icon-9987-plus:before {
+	content: "\E034";
+}
+
+.icon-9988-ex:before {
+	content: "\E035";
+}
+
+.icon-9989-ex-disc:before {
+	content: "\E036";
+}
+
+.icon-9990-warning:before {
+	content: "\E037";
+}
+
+.icon-9991-check:before {
+	content: "\E038";
+}
+
+.icon-9992-pencil:before {
+	content: "\E039";
+}
+
+.icon-9993-people:before {
+	content: "\E03A";
+}
+
+.icon-9994-person:before {
+	content: "\E03B";
+}
+
+.icon-9995-star-empty:before {
+	content: "\E03C";
+}
+
+.icon-9996-star:before {
+	content: "\E03D";
+}
+
+.icon-9997-hamburger-list:before {
+	content: "\E03E";
+}
+
+.icon-9998-hamburger:before {
+	content: "\E03F";
+}
+
+.icon-9999-house:before {
+	content: "\E040";
+}

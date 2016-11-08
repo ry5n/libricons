@@ -49,5 +49,4 @@ version of the font built using IcoMoon, a free web app.
 
 ## Todo
 
-- Better automation (building the font on the command line)
 - Evaluate the slightly non-standard CSS selector pattern for rendering icons.
